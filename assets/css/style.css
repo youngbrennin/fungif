@@ -10,7 +10,7 @@
 img {
     height: 200px;
     width: 200px;
-    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 10px;
 }
 
@@ -19,13 +19,33 @@ img:hover {
 }
 
 .gif-btn {
-    margin: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white; 
+}
+
+#buttonArea.button-drop {
+    max-width: 600px;
+}
+
+#imageArea.image-drop {
+    max-width: 1400px;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+button.gif-btn{
+    margin-left: 0px; 
 }
 
 .gif-btn:hover {
-    border: 2px solid rgb(34, 69, 114);
-    background-color: rgb(255, 113, 61);
-    color: white;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
 }
 
 .image-drop {
@@ -50,7 +70,7 @@ input[type=text] {
     border-radius: 4px;
     outline: none;
     padding: 8px;
-    margin-left: 10px;
+    margin-left: 35px;
     margin-top: 12px;
     box-sizing: border-box;
 }
@@ -67,7 +87,7 @@ input[type=text]:focus {
 
 .input-with-icon i {
     position: absolute;
-    left: 12px;
+    left: 37px;
     top: 17px;
     padding: 9px;
     color: rgb(34, 69, 114);
