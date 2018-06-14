@@ -7,6 +7,31 @@
     color: rgb(34, 69, 114);
 }
 
+img {
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+img:hover {
+    border: 2px solid white;
+}
+
+.gif-btn {
+    margin: 10px;
+}
+
+.gif-btn:hover {
+    border: 2px solid rgb(34, 69, 114);
+    background-color: rgb(255, 113, 61);
+    color: white;
+}
+
+.image-drop {
+    margin: 0 auto;
+}
+
 .input-with-icon input[type=text] {
     padding-left: 40px;
 }
