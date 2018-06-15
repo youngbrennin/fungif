@@ -62,10 +62,6 @@ $(document).on("click", ".gif-btn", createStuff);
 
 $("#imageArea").on("click", 'img', function(){
 this.src = $(this).attr("data-animate");
-if ($(this).attr("data-state") !== "still") {
-    
-    this.src = $(this).attr("data-state");
-}
 });
 
 addButton();
