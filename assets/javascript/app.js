@@ -7,7 +7,7 @@ function createStuff() {
     var fillGif = $(this).attr("data-name");
     var APIkey = "0emzCKL1a7sCMkjMLF5Mz0M4N4WxiMUE"
     // var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=" + APIkey + "&tag=" + fillGif + "&limit=10";
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + fillGif + "&api_key=" + APIkey + "&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + fillGif + "&api_key=" + APIkey + "&limit=10";
 
     $.ajax({
         url: queryURL,
