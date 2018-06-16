@@ -60,8 +60,23 @@ $("#searchButton").on("click", function (event) {
 
 $(document).on("click", ".gif-btn", createStuff);
 
+// generate rating
+
 $("#imageArea").on("click", 'img', function(){
-this.src = $(this).attr("data-animate");
+
+    console.log($(this).attr("data-state"))
+
+
+    if ($(this).attr("data-state") === "still") {
+
+        console.log("turn to animate")
+    this.src = $(this).attr("data-animate");
+    $(this).attr("data-state", "animate")
+    } else {
+        console.log("turn back to still")
+        this.src = $(this).attr("data-still");
+        $(this).attr("data-state", "still")
+    }
 });
 
 addButton();
